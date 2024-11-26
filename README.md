@@ -25,7 +25,7 @@ python git_envs/iekt_assist09/main.py
 ```
 
 
-## Training and Evaluating HierLLM on IA Simulator
+## Training and Evaluating HierLLM on I-A Simulator
 
 To train and evaluate HierLLM on I-A Simulator, run
 
