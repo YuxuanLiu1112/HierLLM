@@ -13,17 +13,17 @@ pip install -e .
 
 ## Training Simulators 
 
-To pretrain the I-A Simulator（trained using IEKT on Assist09）, run
+To pretrain the I-A Simulator（trained using DKT on junyi）, run
 
 ```
-python git_envs/iekt_assist09/main.py
+python git_envs/dkt_junyi/main.py
 ```
 
 
-## Training and Evaluating HQRA on I-A Simulator
+## Training and Evaluating HQRA on D-J Simulator
 
-To train and evaluate HQRA on I-A Simulator, run
+To train and evaluate HQRA on D-J Simulator, run
 
 ```
-python main.py --env=default='IEKT_assist09
+python main.py --env=default='DKT_junyi'
 ```
