@@ -13,7 +13,7 @@ pip install -e .
 
 ## Training Simulators 
 
-To pretrain the I-A Simulator（trained using DKT on junyi）, run
+To pretrain the D-J Simulator（trained using DKT on junyi）, run
 
 ```
 python git_envs/dkt_junyi/main.py
