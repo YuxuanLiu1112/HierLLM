@@ -1,11 +1,11 @@
-# HQRA: Hierarchical Question Recommendation Agent
+# HierLLM: Hierarchical Large Language Model for Question Recommendation
 
 
 ## Environment Setup
 
 ```
 conda env create -f environment.yml
-conda activate HQRA
+conda activate HierLLM
 pip install -e .
 ```
 
@@ -20,9 +20,9 @@ python git_envs/dkt_junyi/main.py
 ```
 
 
-## Training and Evaluating HQRA on D-J Simulator
+## Training and Evaluating HierLLM on D-J Simulator
 
-To train and evaluate HQRA on D-J Simulator, run
+To train and evaluate HierLLM on D-J Simulator, run
 
 ```
 python main.py --env=default='DKT_junyi'
